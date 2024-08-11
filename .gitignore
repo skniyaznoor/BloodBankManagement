@@ -1,0 +1,18 @@
+# Ignore configuration files with sensitive data
+config.php
+
+# Ignore environment variables (if you have an environment file)
+.env
+
+# Ignore database folder
+/database/
+
+# Ignore PHP files that might contain sensitive data
+/login.php
+/signup.php
+
+# Ignore backup files
+*.bak
+
+# Ignore other sensitive files or folders
+/secrets/
